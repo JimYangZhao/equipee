@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
+import Header from './Header'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello from AWS Amplify!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    // BEM
+    <div className="app">
+        <Header />
+        <Home />
+
+
+        {/* Home */}
+            {/* Header */}
+
+            {/* Banner */}
+              {/* Search */}
+            {/* Cards */}
+
+
+            {/* Footer */}
+
+        {/* SearchPage */}
+            {/* Header */}
+            {/* ... */}
     </div>
+
+    
   );
 }
 

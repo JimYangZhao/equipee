@@ -1,0 +1,36 @@
+.banner{
+    background: url("https://images.pexels.com/photos/326410/pexels-photo-326410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center center;
+    height: 50vh;
+    position: relative;
+}
+
+.banner_info{
+    background-color: black;
+    color:white;
+    padding: 25vh 50px 40px 50px;
+    width: 300px;
+}
+
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_searchButton{
+    background-color: white!important;
+    font-weight: 900!important;
+    text-transform: inherit!important;
+    color:#ff7779!important;
+}
+
+.banner_info > button{
+    background-color: #ff7779;
+    color:white;
+    text-transform:inherit;
+    margin-top:20px;
+    font-weight: 600;
+}
+
+.banner_info > h5{
+    margin-top: 10px;
+}
