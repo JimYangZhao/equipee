@@ -1,36 +1,49 @@
-.banner{
-    background: url("https://images.pexels.com/photos/326410/pexels-photo-326410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center center;
-    height: 50vh;
+.banner {
+    background: url("https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg") center center;
+    height: 80vh;
     position: relative;
-}
-
-.banner_info{
-    background-color: black;
-    color:white;
-    padding: 25vh 50px 40px 50px;
-    width: 300px;
-}
-
-.banner_search{
-    display: flex;
-    flex-direction: column;
-}
-
-.banner_searchButton{
-    background-color: white!important;
-    font-weight: 900!important;
-    text-transform: inherit!important;
-    color:#ff7779!important;
-}
-
-.banner_info > button{
-    background-color: #ff7779;
-    color:white;
-    text-transform:inherit;
-    margin-top:20px;
-    font-weight: 600;
-}
-
-.banner_info > h5{
-    margin-top: 10px;
-}
+  }
+  
+  .banner__info {
+      background-color: rgba(0, 0, 0, 0.267);
+      color: white;
+      padding-top: 25vh;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 40px;
+      width: 300px;
+      position: relative;
+      right: 10%;
+      top: 10%;
+      float: right;
+  }
+  
+  .banner__search {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color:#AC9456 !important;
+  }
+  
+  .banner__info > button {
+      background-color: #AC9456;
+      color: white;
+      text-transform: inherit;
+      margin-top: 20px;
+      font-weight: 600;
+  }
+  
+  .banner__info > button:hover {
+      background-color: white;
+      color: #ff7779;
+    }
+    
+  
+  .banner__info > h5 {
+      margin-top: 10px;
+  }
