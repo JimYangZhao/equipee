@@ -5,17 +5,19 @@
   }
   
   .banner__info {
-      background-color: rgba(0, 0, 0, 0.267);
+      /* background-color: rgba(0, 0, 0, 0.267); */
       color: white;
-      padding-top: 25vh;
+      padding-top: 15vh;
       padding-left: 50px;
       padding-right: 50px;
-      padding-bottom: 40px;
+      padding-bottom: 20px;
       width: 300px;
       position: relative;
-      right: 10%;
-      top: 10%;
-      float: right;
+      left: 5%;
+      top: 5%;
+      float: left;
+      z-index: 100;
+      font-size: 72px;
   }
   
   .banner__search {

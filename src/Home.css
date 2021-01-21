@@ -1,4 +1,24 @@
-.home__section {
+.home__section__1 {
     display: flex;
     padding: 30px;
-  }
+}
+.home__section__2 {
+    display: flex;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.home__section__3 {
+    display: flex;
+    padding: 30px;
+}
+
+.row{
+  display: flex;
+  padding: 30px;
+}
+
+.section h1{
+  width: 100%;
+  border-bottom: 3px solid rgb(172, 148, 86);
+  width: fit-content;
+}

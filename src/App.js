@@ -4,6 +4,7 @@ import Home from './Home'
 import Header from './Header'
 import Footer from './Footer'
 import SearchPage from './SearchPage'
+import Navbar from './Navbar';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -13,8 +14,8 @@ function App() {
     // BEM
     <div className="app">
       <Router>
-        <Header />
-        
+        {/* <Header /> */}
+        <Navbar />
         <Switch>
           <Route path="/search">
             <SearchPage />
