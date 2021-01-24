@@ -3,6 +3,7 @@ import './Home.css';
 import Banner from './Banner'
 import Card from './Card'
 
+
 // ES7 snippets to do 'rfce'
 
 function Home() {
@@ -32,7 +33,7 @@ function Home() {
                         </div>
                 </div>
             </div>
-            <div className='home__section__3'>
+            <div className='home__section__2'>
                 <div className='section'> 
                     <h1>POPULAR EQUIPMENT RENTALS</h1>
                         <div className='row'>
@@ -58,8 +59,91 @@ function Home() {
                 </div>
             </div>
             <div className='home__section__3'>
-                <div className='section'> 
-                    <h1>More</h1>
+                <div className='title'> 
+                    <h1>EQUIPMEE FOR SUPPLIERS</h1>
+                </div>
+                <div className='contents'> 
+                    <div className='contents__left'>
+                        <img
+                            className="left_img"
+                            src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601584926/Icons/homepage/Web_Store_Powered_by_DOZR.png"
+                            alt=""
+                        />
+                    </div>
+                    <div className='contents__right'>
+                        <div className='contents__title'> 
+                            <h2>Introducing</h2>
+                            <h1>EQUIPMEE FOR SUPPLIERS</h1>
+                            <h3>POWERED BY EQUIPMEE</h3>
+                        </div>
+                        <div className='contents__description'>
+                            <p>
+                            An ecommerce solution for rental companies to enable touchless online bookings with customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='home__section__4'>
+                <div className='title'> 
+                    <h1>EQUIPMEE FOR CONTRACTORS</h1>
+                </div>
+                <div className='section'>
+                        <div className='row'>
+                            <div>
+                                <img
+                                    className="s4_row_img"
+                                    src="https://res.cloudinary.com/dsfzcj5qk/image/upload/q_auto:eco/v1570104917/Icons/homepage/dozr-advantage-price.svg"
+                                    alt=""
+                                />
+                                <h2>Price</h2>
+                                <h3>We’ve secured the best rental rates in the industry from top quality suppliers so that you don’t have to.
+                                </h3>
+                            </div>
+                            <div>
+                                <img
+                                    className="s4_row_img"
+                                    src="https://res.cloudinary.com/dsfzcj5qk/image/upload/q_auto:eco/v1570104917/Icons/homepage/dozr-advantage-price.svg"
+                                    alt=""
+                                />
+                                <h2>Price</h2>
+                                <h3>We’ve secured the best rental rates in the industry from top quality suppliers so that you don’t have to.
+                                </h3>
+                            </div>
+                            <div>
+                                <img
+                                    className="s4_row_img"
+                                    src="https://res.cloudinary.com/dsfzcj5qk/image/upload/q_auto:eco/v1570104917/Icons/homepage/dozr-advantage-price.svg"
+                                    alt=""
+                                />
+                                <h2>Price</h2>
+                                <h3>We’ve secured the best rental rates in the industry from top quality suppliers so that you don’t have to.
+                                </h3>
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div>
+                                <img
+                                    className="s4_row_img"
+                                    src="https://res.cloudinary.com/dsfzcj5qk/image/upload/q_auto:eco/v1570104917/Icons/homepage/dozr-advantage-price.svg"
+                                    alt=""
+                                />
+                                <h2>Price</h2>
+                                <h3>We’ve secured the best rental rates in the industry from top quality suppliers so that you don’t have to.
+                                </h3>
+                            </div>
+                            <div>
+                                <img
+                                    className="s4_row_img"
+                                    src="https://res.cloudinary.com/dsfzcj5qk/image/upload/q_auto:eco/v1570104917/Icons/homepage/dozr-advantage-price.svg"
+                                    alt=""
+                                />
+                                <h2>Price</h2>
+                                <h3>We’ve secured the best rental rates in the industry from top quality suppliers so that you don’t have to.
+                                </h3>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
