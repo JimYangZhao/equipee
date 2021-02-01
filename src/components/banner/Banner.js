@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import './Banner.css'
+import React, { useState } from 'react';
+import '../banner/Banner.css';
 import { Button } from "@material-ui/core";
-import Search from './Search';
+import Search from '../navbar/search/Search';
 import { useHistory } from "react-router-dom";
 
 function Banner() {

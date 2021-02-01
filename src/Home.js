@@ -1,7 +1,10 @@
 import React from 'react';
-import './Home.css';
-import Banner from './Banner'
-import Card from './Card'
+import './Home.scss';
+import Banner from './components/banner/Banner';
+import Card from './components/card/Card';
+import CTA1 from './components/call_to_action/cta_one';
+import CTA2 from './components/call_to_action/cta_two';
+import Partners from './components/call_to_action/partners';
 
 
 // ES7 snippets to do 'rfce'
@@ -84,7 +87,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
             <div className='home__section__4'>
                 <div className='title'> 
                     <h1>EQUIPMEE FOR CONTRACTORS</h1>
@@ -146,6 +148,51 @@ function Home() {
                         </div>
                 </div>
             </div>
+            <div className='home__section__5'>
+                <CTA1 
+                    src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    title="Equipment#3"
+                    description="An ecommerce solution for rental companies to enable touchless online bookings with customers."
+                />
+                <CTA2 
+                    src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    title="Equipment#3"
+                    button="Learn More"
+                />
+            </div>
+            <div className='home__section__6'>
+                    <h1>Corporate Partners"</h1>
+                
+                <div className="logos">
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                </div>
+                <div className="logos">
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                    <Partners
+                        src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
+                    />
+                </div>
+            </div>
+            
         </div>
     )
 }

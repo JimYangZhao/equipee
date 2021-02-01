@@ -1,0 +1,36 @@
+.cta_two {
+  .row {
+    background: url('https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg')
+      center center;
+    height: 40vh;
+    position: relative;
+  }
+
+  .contents {
+    position: relative;
+    margin: 2em;
+    background-color: #6b6963;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    .left-empty {
+      width: 50%;
+    }
+    .right-text-button {
+      width: 50%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-family: 'Roboto Slab', Helvetica, Arial, serif;
+      font-size: 3rem;
+      font-weight: bold;
+      h2 {
+        color: white;
+        text-shadow: rgb(110, 110, 110) 2px 4px 4px;
+        padding-bottom: 0.3em;
+      }
+    }
+  }
+}

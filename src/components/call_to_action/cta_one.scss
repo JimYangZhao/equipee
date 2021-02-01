@@ -1,0 +1,36 @@
+.cta_one {
+  .row {
+    display: flex;
+    background-color: gray;
+  }
+
+  img {
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+  }
+  .contents {
+    /* padding:2em; */
+    margin: 2em;
+    display: flex;
+    background-color: #6b6963;
+    border-radius: 15px;
+    overflow: hidden;
+    .left-text {
+      display: block;
+      padding-top: 58px;
+      padding-left: 47px;
+      color: white;
+      h2 {
+        padding-bottom: 1em;
+      }
+    }
+    .right-img {
+      text-align: left;
+      width: 30%;
+      align-items: center;
+      display: flex;
+    }
+  }
+}
