@@ -13,7 +13,6 @@ function Home() {
     return (
         <div className='home'>
             <Banner />
-
             <div className='home__section__1'>
                 <div className='section'> 
                     <h1>Our Services</h1>
@@ -161,7 +160,7 @@ function Home() {
                 />
             </div>
             <div className='home__section__6'>
-                    <h1>Corporate Partners"</h1>
+                    <h1>Corporate Partners</h1>
                 
                 <div className="logos">
                     <Partners
