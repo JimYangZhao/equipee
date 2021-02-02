@@ -1,6 +1,85 @@
+
 .banner {
   max-height: 450px;
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.About-page{
+  .center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .labels{
+    background-color: #F7F6F5;
+  }
+  .cta_two .contents {
+    position: relative;
+    margin: 0;
+    background-color: #6b6963;
+    border-radius:0px;
+    overflow: hidden;
+    display: flex;
+  }
+  .cta_two .row {
+    height: 80vh;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    gap: 3em;
+    .logos{
+      display: flex;
+      gap: 6em;
+    }
+  }
+  .partners{
+    flex-wrap: wrap;
+  }
+  .title {
+    padding: 2em;
+    h1 {
+      border-bottom: 3px solid rgb(172, 148, 86);
+      width: fit-content;
+      margin: auto;
+    }
+  }
+  .contents {
+    /* padding:2em; */
+    margin: 2em;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.055);
+    .contents__left {
+      justify-content: center;
+      align-items: center;
+      /* width: 50px; */
+      flex: 50%;
+      display: flex;
+      .left_img {
+        height: 21em;
+      }
+    }
+    .contents__right {
+      text-align: left;
+      /* flex: 50%; */
+      width: 50%;
+      align-items: center;
+      padding: 4em;
+    }
+    .contents__title {
+      padding-bottom: 15px;
+      h1 {
+        font-weight: 700;
+      }
+      h2 {
+        color: lightgrey;
+      }
+      h3 {
+        color: gray;
+      }
+    }
+  }
 }

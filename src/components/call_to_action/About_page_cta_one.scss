@@ -1,0 +1,45 @@
+.about_page_cta_one{
+    display: flex;
+    padding:30px;
+    width: 100%;
+    .left-area{
+        width: 50%;
+    }
+    .outline{
+        height: 500px;
+        width: 500px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: auto;
+        .left-img{
+
+        }
+    }
+    .right-text{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        padding: 5% 8%;
+
+    }
+    h1{
+        color: #262522;
+        width: 26rem;
+        font-size: 46px;
+        font-style: normal;
+        font-family: Roboto, sans-serif;
+        font-weight: 900;
+        line-height: 109%;
+    }
+    h4{
+        color: #262522;
+        font-size: 20px;
+        font-style: normal;
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+        line-height: 30px;
+    }
+}
