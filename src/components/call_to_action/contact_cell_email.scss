@@ -1,0 +1,26 @@
+.contact_cell_email{
+    display: flex;
+    img{
+        height: 60px;
+        width: 60px;
+    }
+    .title{
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.5rem;
+        font-family: Roboto, Helvetica, Arial, serif;
+    }
+    .cell{
+        color: rgb(172, 148, 86);
+        text-decoration: underline;
+        font-family: Roboto, Helvetica, Arial, serif;
+        line-height: 1.15;
+    }
+    .description,.time{
+        margin-bottom: 0.5rem;
+        font-family: Roboto, Helvetica, Arial, serif;
+        line-height: 1.15;
+    }
+
+}

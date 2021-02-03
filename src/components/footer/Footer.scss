@@ -3,6 +3,28 @@
   padding: 3em;
   background-color: black;
   text-align: center;
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: lightgray;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ac9456;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: goldenrod;
+    text-decoration: none;
+  }
 }
 
 .footer > p {
@@ -77,25 +99,4 @@
   }
 }
 
-a:link {
-  color: white;
-  text-decoration: none;
-}
 
-/* visited link */
-a:visited {
-  color: lightgray;
-  text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: #ac9456;
-  text-decoration: none;
-}
-
-/* selected link */
-a:active {
-  color: goldenrod;
-  text-decoration: none;
-}
