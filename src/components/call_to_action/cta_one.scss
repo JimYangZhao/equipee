@@ -19,15 +19,15 @@
     overflow: hidden;
     .left-text {
       display: block;
-      padding-top: 58px;
-      padding-left: 47px;
+      padding: 50px;
       color: white;
+      width: 70%;
       h2 {
         padding-bottom: 1em;
       }
     }
     .right-img {
-      text-align: left;
+      text-align: right;
       width: 30%;
       align-items: center;
       display: flex;
