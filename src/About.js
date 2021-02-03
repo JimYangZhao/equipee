@@ -9,7 +9,7 @@ import Partners from './components/call_to_action/partners';
 function About() {
     return (
         <div className="About-page">
-            <div className="banner">
+            <div className="title_banner">
                 <AboutusBanner 
                     src="https://res.cloudinary.com/dsfzcj5qk/image/upload/v1601596457/DOZR%20Home%20Banner%20Image%20Update%20Oct%202020/DOZR_Header_Image_Desktop_m9s0a0.jpg"
                     title="About Page"
