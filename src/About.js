@@ -64,6 +64,7 @@ function About() {
             <div className="section labels">
                 <div className='row'>
                     <div className="center">
+                        {/* Use UI Framework - Ant */}
                         <img
                             className="s4_row_img"
                             src="https://res.cloudinary.com/dsfzcj5qk/image/upload/q_auto:eco/v1570104917/Icons/homepage/dozr-advantage-price.svg"
@@ -72,6 +73,7 @@ function About() {
                         <h2>Price</h2>
                         <h3>We’ve secured the best rental rates in the industry from top quality suppliers so that you don’t have to.
                         </h3>
+                        
                     </div>
                     <div className="center">
                         <img

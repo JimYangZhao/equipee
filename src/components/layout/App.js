@@ -1,12 +1,11 @@
 import React from 'react';
-import '../layout/App.css';
-import '../layout/general.scss';
+import './App.css';
+import './general.scss';
 import Home from '../../Home';
 // import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import SearchPage from '../navbar/search/SearchPage'
 import Navbar from '../navbar/Navbar';
-
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import About from '../../About';
 import Careers from '../../Careers';

@@ -1,3 +1,4 @@
+import { render } from 'node-sass';
 import React from 'react';
 import './contact_cell_email.scss';
 
@@ -15,3 +16,7 @@ function contact_cell_email({icon, title, cell, email, description, time}) {
 }
 
 export default contact_cell_email
+// check
+// {
+//     email ? emial: render() / null;
+// }   {/* Add check function , can be writed in*/}
