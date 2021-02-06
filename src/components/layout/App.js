@@ -6,6 +6,7 @@ import Home from '../../Home';
 import Footer from '../footer/Footer';
 import SearchPage from '../navbar/search/SearchPage'
 import Navbar from '../navbar/Navbar';
+
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import About from '../../About';
 import Careers from '../../Careers';

@@ -8,7 +8,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar } from "@material-ui/core";
-import '../navbar/Navbar.css';
+import '../navbar/Navbar.scss';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);

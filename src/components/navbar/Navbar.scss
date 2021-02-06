@@ -7,6 +7,10 @@
   position: sticky;
   top: 0;
   z-index: 101;
+  span {
+    margin-left: 16px;
+  }
+  
 }
 
 .menu-bars {
@@ -72,9 +76,7 @@
   align-items: center;
 }
 
-span {
-  margin-left: 16px;
-}
+
 
 .header {
   display: flex;
